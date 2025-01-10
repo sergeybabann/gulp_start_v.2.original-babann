@@ -1,0 +1,10 @@
+git repo: 
+
+https://github.com/sergeybabann/gulp_start.original-babann
+
+
+video url: https://www.youtube.com/watch?v=Hh1aDoWMJXA
+
+video stop: 1.08.42
+
+

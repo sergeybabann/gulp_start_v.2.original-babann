@@ -1,0 +1,14 @@
+.main {
+  padding: 100px;
+  border: 1px solid white;
+  .inner {
+    margin: 0;
+    padding: 100px;
+    border: 1px solid white;
+  }
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}

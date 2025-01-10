@@ -1,0 +1,15 @@
+
+----- Решение проблемы с изображениями ----- 
+
+строка решает проблему с копированием изображений 
+{ encoding: false, }
+
+
+function images() {
+  // функция переносит все файлы изображений c указанными расширениями из папки src в папку dist
+  return src("src/images/**/*.{jpg,png,svg,gif,ico,webp,avif}", {
+    encoding: false,
+  })
+    .pipe(dest("dist/images"))
+    .pipe(browserSync.reload({ stream: true }));
+}
